@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster|Playball&display=swap&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Monofett&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Orbitron&display=swap");
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Playball', cursive; 
+font-family: 'Courgette', cursive;
+font-family: 'Monofett', cursive;
+font-family: 'Orbitron', sans-serif;
+*/
+h1, h2, h3, h4, h5, h6, img, a, ul, li, * {
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  outline: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*header part starts*/
+.header-part ul li {
+  padding-bottom: 18px;
+  padding-top: 10px;
+}
+
+.header-part ul li a {
+  font-family: 'Lobster', cursive;
+  font-size: 18px;
+  color: #fff;
+}
+
+.header-part ul li .dropdown-menu a {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.header-part ul li a:hover {
+  color: #658af0;
+  -webkit-transition: all linear .4s;
+  transition: all linear .4s;
+}
+
+.header-part ul li .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.header-part .bell, .header-part .account a {
+  color: #ddd;
+  font-size: 20px;
+}
+
+.header-part .bell:hover, .header-part .account a:hover {
+  color: #15cf40;
+}
+
+.header-part .account-menu a {
+  font-size: 15px;
+}
+
+/*header part ends*/
+/*banner part starts*/
+.banner-part {
+  margin-bottom: 30px;
+}
+
+.banner-part .mycontainer {
+  width: 100%;
+}
+
+.banner-part .mycontainer .items {
+  background: url(../../images/suitsAndTuxedos/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-part .mycontainer .items h1 {
+  font-family: 'Monofett', cursive;
+  font-size: 70px;
+  padding-left: 5%;
+  padding-top: 100px;
+}
+
+.banner-part .mycontainer .items h2 {
+  font-family: 'Playball', cursive;
+  font-weight: bold;
+  padding-left: 3%;
+  padding-bottom: 100px;
+}
+
+/*banner part ends*/
+/*gallery part starts*/
+.gallery-part .items .cards img {
+  width: 286px;
+  height: 348px;
+}
+
+.gallery-part .items .card:hover {
+  -webkit-box-shadow: 0px 0px 15px #7ae459;
+          box-shadow: 0px 0px 15px #7ae459;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.gallery-part .items p {
+  font-weight: bold;
+}
+
+.gallery-part .items h5 {
+  font-size: 17px;
+}
+
+/*gallery part ends*/
+/*footer part starts*/
+.footer-part {
+  background: #333;
+}
+
+.footer-part .items {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.footer-part .items img {
+  height: 130px;
+  border-radius: 40px;
+}
+
+.footer-part .items .info {
+  padding-top: 20px;
+}
+
+.footer-part .items .info h6 {
+  padding-top: 8px;
+  color: #999;
+  display: inline-block;
+}
+
+.footer-part .items .info h6:hover {
+  color: #26e265;
+  cursor: pointer;
+}
+
+.footer-part .items .info .icons {
+  padding-top: 10px;
+}
+
+.footer-part .items .info .icons i {
+  font-size: 40px;
+  background: #000;
+  border-radius: 70%;
+  padding: 6px;
+}
+
+.footer-part .items .info .icons i:hover {
+  cursor: pointer;
+  color: #26e265;
+  -webkit-transition: all linear .4s;
+  transition: all linear .4s;
+}
+
+/*footer part ends*/
+/*# sourceMappingURL=suitsAndTuxedos.css.map */

@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster|Playball&display=swap&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Monofett&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Righteous&display=swap");
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Playball', cursive; 
+font-family: 'Courgette', cursive;
+font-family: 'Monofett', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Righteous', cursive;
+*/
+h1, h2, h3, h4, h5, h6, img, a, ul, li, * {
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  outline: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*common css ends*/
+/*header part starts*/
+.header-part ul li {
+  padding-bottom: 18px;
+  padding-top: 10px;
+}
+
+.header-part ul li a {
+  font-family: 'Lobster', cursive;
+  font-size: 18px;
+  color: #fff;
+}
+
+.header-part ul li .dropdown-menu a {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.header-part ul li a:hover {
+  color: #658af0;
+  -webkit-transition: all linear .4s;
+  transition: all linear .4s;
+}
+
+.header-part ul li .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.header-part form {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.header-part .bell {
+  color: #ddd;
+  font-size: 25px;
+  position: relative;
+}
+
+.header-part .bell span {
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  right: -55%;
+}
+
+.header-part .bellnotify {
+  color: #e93225;
+  font-size: 25px;
+  position: relative;
+}
+
+.header-part .bellnotify span {
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  right: -55%;
+}
+
+/*header part ends*/
+/*admin dash part starts*/
+.admin-dash-part .col-md-2 {
+  padding-left: 0px;
+}
+
+.admin-dash-part .col-md-2 h3 {
+  color: #ddd;
+  font-family: 'Playball', cursive;
+}
+
+.admin-dash-part .col-md-2 .items {
+  background: #212529;
+}
+
+.admin-dash-part .col-md-2 .items img {
+  padding: 20px 0px;
+  border-radius: 50%;
+}
+
+.admin-dash-part .col-md-2 .items .btns {
+  border-top: 1px solid #bbb;
+  width: 107%;
+}
+
+.admin-dash-part .col-md-2 .items .btns i {
+  color: #bbb;
+  font-size: 18px;
+  padding: 11px 0px;
+}
+
+.admin-dash-part .col-md-2 .items .btns a {
+  font-size: 18px;
+  color: #bbb;
+  font-family: 'Righteous', cursive;
+}
+
+.admin-dash-part .col-md-2 .items .btns:hover {
+  border-top: 1px solid #fff;
+}
+
+.admin-dash-part .col-md-2 .items .btns:hover i, .admin-dash-part .col-md-2 .items .btns:hover a {
+  color: #fff;
+}
+
+.admin-dash-part .items2 form {
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+/*admin dash part ends*/
+/*# sourceMappingURL=adminStyle.css.map */

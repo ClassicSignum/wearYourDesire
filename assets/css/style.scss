@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Playball&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monofett&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Playball', cursive; 
+font-family: 'Courgette', cursive;
+font-family: 'Monofett', cursive;
+font-family: 'Orbitron', sans-serif;
+*/
+h1,h2,h3,h4,h5,h6,img,a,ul,li,*{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+ul,li{
+    list-style: none;
+    padding: 0;
+    outline: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+/*header part starts*/
+.header-part{
+   
+    ul{
+        li{
+            padding-bottom: 18px;
+            padding-top: 10px;
+            a{
+                font-family: 'Lobster', cursive; 
+                // font-family: 'Playball', cursive; 
+                font-size: 18px;
+                color: #fff;
+            }
+            .dropdown-menu a{
+                font-family: 'Orbitron', sans-serif;
+                font-size: 14px;
+                color: #fff;
+                font-weight: bold;
+            }
+            a:hover{
+                color: rgb(101, 138, 240);
+                transition: all linear .4s;
+            }
+            .dropdown:hover .dropdown-menu{
+                display: block;
+            }
+        }
+
+       
+    }
+}
+/*header part ends*/
+
+/*carousel part starts*/
+.carousel-part{
+    img{
+        height: 600px;
+    }
+}
+/*carousel part ends*/
+
+/*choose part starts*/
+.choose-part{
+    padding-top: 30px;
+    background: rgb(216, 191, 191);
+    h1{
+        span{
+            font-family: 'Playball', cursive; 
+            font-size: 50px;
+            font-weight: bold;
+        }
+    }
+    
+}
+/*choose part ends*/
+
+/*products part starts*/
+.products-part{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: linear-gradient(to bottom,rgb(216, 191, 191),#fff);
+    .products{
+        img{
+            height: 270px;
+            width: 100%;
+            border-radius: 20px;
+        }
+        .products-overlay{
+            height: 100%;
+            width: 100%;
+            background: rgba(0,0,0,.5);
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            justify-content: center;
+            position:absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            transition: all linear .3s;
+            align-items: center;
+            border-radius: 20px;
+            h3{
+                font-family: 'Lobster', cursive;
+                color: #eee;
+            }
+        }
+        .products-overlay a{
+
+            height: 40px;
+            width: 40px;
+            background: #5bc5f4;
+            border-radius: 50%;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .products-overlay:hover{
+            opacity: 1;
+        }
+    }
+
+
+}
+/*products part ends*/
+
+/*howitworks part starts*/
+.howitworks-part{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    h1{
+        font-size: 50px;
+        font-family: 'Courgette', cursive;
+    }
+    .items{
+        padding-top: 90px;
+        a{
+            text-decoration: none;
+            font-size: 70px;
+            color: #aaa;
+            padding-top: 15px;
+        }
+        h3{
+            font-family: 'Lobster', cursive;
+        }
+        h5{
+            color: #999;
+            padding-bottom: 20px;
+        }
+
+        .col-md-4:hover{
+            box-shadow: 0px 0px 5px #999;
+            transition: all linear .3s;
+        }
+        .col-md-4:hover a{
+            color: rgb(13, 214, 214);
+        }
+
+
+
+
+
+
+
+    }
+
+}
+/*howitworks part ends*/
+
+
+/*our partners part starts*/
+.partners-part{
+    position: relative;
+    padding-bottom: 80px;
+    padding-top: 10px;
+    background: #EBDBC8;
+    h1{
+        font-family: 'Monofett', cursive;
+        font-size: 58px;
+        padding: 20px 0px;
+    }
+    .center{
+        // background: #900;
+        .box{
+            height: 120px;
+            width: 120px;
+            // background: #000;
+            // color: #fff;
+            margin-left: 15px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                width: 300px;
+            }
+        }
+        
+    }
+    .prev{
+        position: absolute;
+        top: 45%;
+        font-size: 70px;
+        left: 3%;
+        color: #999;
+        cursor: pointer;
+    }
+    .next{
+        position: absolute;
+        top: 45%;
+        font-size: 70px;
+        right: 3%;
+        color: #999;
+        cursor: pointer;
+    }
+    .prev:hover,.next:hover{
+        color:#444;
+        transition: all linear .3s;
+    }
+}
+/*our partners part ends*/
+
+/*footer part starts*/
+.footer-part{
+    background: #333;
+    .items{
+        padding-top: 30px;
+        padding-bottom: 20px;
+        img{
+            height: 130px;
+            border-radius: 40px;
+        }
+        .info{
+            padding-top: 20px;
+            h6{
+                padding-top: 8px;
+                color: #999;
+                display: inline-block;
+            }
+            h6:hover{
+                color: #26e265;
+                cursor: pointer;
+            }
+            .icons{
+                padding-top: 10px;
+                i{
+                    font-size: 40px;
+                    background: #000;
+                    border-radius: 70%;
+                    padding: 6px;
+                }
+                i:hover{
+                    cursor: pointer;
+                    color: #26e265;
+                    transition: all linear .4s;
+                }
+            }
+        }
+
+    }
+}
+/*footer part ends*/
+
+/*sign up part starts*/
+.modal{
+    small{
+        visibility: hidden;
+    }
+    #password:focus ~small{
+        visibility: visible;
+    }
+}
+/*sign up part ends*/

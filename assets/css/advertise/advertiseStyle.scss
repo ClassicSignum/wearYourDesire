@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Playball&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monofett&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Playball', cursive; 
+font-family: 'Courgette', cursive;
+font-family: 'Monofett', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Righteous', cursive;
+*/
+h1,h2,h3,h4,h5,h6,img,a,ul,li,*{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+ul,li{
+    list-style: none;
+    padding: 0;
+    outline: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+/*common css ends*/
+
+/*header part starts*/
+.header-part{
+   
+    form{
+        margin-left: auto;
+    }
+    .bell{
+        color: #ddd;
+        font-size: 25px;
+        position: relative;
+
+        span{
+            font-size: 12px;
+            position: absolute;
+            top: 0;
+            right: -55%;
+        }
+    }
+
+    .bellnotify{
+        color: rgb(233, 50, 37);
+        font-size: 25px;
+        position: relative;
+
+        span{
+            font-size: 12px;
+            position: absolute;
+            top: 0;
+            right: -55%;
+        }
+    }
+}
+/*header part ends*/
+
+/*adbertise dash part starts*/
+.admin-dash-part{
+    .col-md-2{
+        padding-left: 0px;
+        .items{
+            background: #212529;
+            img{
+                padding:20px 0px;
+                border-radius: 50%;
+               
+            }
+            
+            
+            .btns{
+                border-top: 1px solid #bbb; 
+                width: 107%;
+                i{
+                    color: #bbb;
+                    font-size: 18px;
+                    padding: 11px 0px;
+                }
+                a{
+                    font-size: 18px;
+                    color: #bbb;
+                    font-family: 'Righteous', cursive;
+                }
+                
+                
+            }
+            .btns:hover{
+                border-top: 1px solid #fff; 
+                i,a{
+                    color: #fff;
+                }
+                
+           }
+
+            
+        }
+
+        
+    }
+    .items2{
+
+       table{
+           img{
+            height: 100px;
+            width: 100px;
+           }
+           form{
+               .hidden-text{
+                   display: none;
+                   visibility: hidden;
+               }
+           }
+           
+       }
+       form{
+           width: 40%;
+           margin: 0 auto;
+           padding-top: 30px;
+       }
+    }
+}
+/*adbertise dash part ends*/
+
+

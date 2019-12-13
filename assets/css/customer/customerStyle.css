@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster|Playball&display=swap&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Monofett&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Righteous&display=swap");
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Playball', cursive; 
+font-family: 'Courgette', cursive;
+font-family: 'Monofett', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Righteous', cursive;
+*/
+h1, h2, h3, h4, h5, h6, img, a, ul, li, * {
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  outline: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*common css ends*/
+/*header part starts*/
+.header-part ul li {
+  padding-bottom: 18px;
+  padding-top: 10px;
+}
+
+.header-part ul li a {
+  font-family: 'Lobster', cursive;
+  font-size: 18px;
+  color: #fff;
+}
+
+.header-part ul li .dropdown-menu a {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.header-part ul li a:hover {
+  color: #658af0;
+  -webkit-transition: all linear .4s;
+  transition: all linear .4s;
+}
+
+.header-part ul li .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.header-part .bell, .header-part .account a {
+  color: #ddd;
+  font-size: 20px;
+}
+
+.header-part .bell:hover, .header-part .account a:hover {
+  color: #15cf40;
+}
+
+.header-part .account-menu a {
+  font-size: 15px;
+}
+
+/*header part ends*/
+/*carousel part starts*/
+.carousel-part img {
+  height: 600px;
+}
+
+/*carousel part ends*/
+/*choose part starts*/
+.choose-part {
+  padding-top: 30px;
+  background: #d8bfbf;
+}
+
+.choose-part h1 span {
+  font-family: 'Playball', cursive;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/*choose part ends*/
+/*products part starts*/
+.products-part {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#d8bfbf), to(#fff));
+  background: linear-gradient(to bottom, #d8bfbf, #fff);
+}
+
+.products-part .products img {
+  height: 270px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.products-part .products .products-overlay {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+}
+
+.products-part .products .products-overlay h3 {
+  font-family: 'Lobster', cursive;
+  color: #eee;
+}
+
+.products-part .products .products-overlay a {
+  height: 40px;
+  width: 40px;
+  background: #5bc5f4;
+  border-radius: 50%;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.products-part .products .products-overlay:hover {
+  opacity: 1;
+}
+
+/*products part ends*/
+/*howitworks part starts*/
+.howitworks-part {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.howitworks-part h1 {
+  font-size: 50px;
+  font-family: 'Courgette', cursive;
+}
+
+.howitworks-part .items {
+  padding-top: 90px;
+}
+
+.howitworks-part .items a {
+  text-decoration: none;
+  font-size: 70px;
+  color: #aaa;
+  padding-top: 15px;
+}
+
+.howitworks-part .items h3 {
+  font-family: 'Lobster', cursive;
+}
+
+.howitworks-part .items h5 {
+  color: #999;
+  padding-bottom: 20px;
+}
+
+.howitworks-part .items .col-md-4:hover {
+  -webkit-box-shadow: 0px 0px 5px #999;
+          box-shadow: 0px 0px 5px #999;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+.howitworks-part .items .col-md-4:hover a {
+  color: #0dd6d6;
+}
+
+/*howitworks part ends*/
+/*our partners part starts*/
+.partners-part {
+  position: relative;
+  padding-bottom: 80px;
+  padding-top: 10px;
+  background: #EBDBC8;
+}
+
+.partners-part h1 {
+  font-family: 'Monofett', cursive;
+  font-size: 58px;
+  padding: 20px 0px;
+}
+
+.partners-part .center .box {
+  height: 120px;
+  width: 120px;
+  margin-left: 15px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.partners-part .center .box img {
+  width: 300px;
+}
+
+.partners-part .prev {
+  position: absolute;
+  top: 45%;
+  font-size: 70px;
+  left: 3%;
+  color: #999;
+  cursor: pointer;
+}
+
+.partners-part .next {
+  position: absolute;
+  top: 45%;
+  font-size: 70px;
+  right: 3%;
+  color: #999;
+  cursor: pointer;
+}
+
+.partners-part .prev:hover, .partners-part .next:hover {
+  color: #444;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+/*our partners part ends*/
+/*footer part starts*/
+.footer-part {
+  background: #333;
+}
+
+.footer-part .items {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.footer-part .items img {
+  height: 130px;
+  border-radius: 40px;
+}
+
+.footer-part .items .info {
+  padding-top: 20px;
+}
+
+.footer-part .items .info h6 {
+  padding-top: 8px;
+  color: #999;
+  display: inline-block;
+}
+
+.footer-part .items .info h6:hover {
+  color: #26e265;
+  cursor: pointer;
+}
+
+.footer-part .items .info .icons {
+  padding-top: 10px;
+}
+
+.footer-part .items .info .icons i {
+  font-size: 40px;
+  background: #000;
+  border-radius: 70%;
+  padding: 6px;
+}
+
+.footer-part .items .info .icons i:hover {
+  cursor: pointer;
+  color: #26e265;
+  -webkit-transition: all linear .4s;
+  transition: all linear .4s;
+}
+
+/*footer part ends*/
+/*# sourceMappingURL=customerStyle.css.map */

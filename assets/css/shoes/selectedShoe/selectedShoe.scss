@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Playball&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monofett&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Playball', cursive; 
+font-family: 'Courgette', cursive;
+font-family: 'Monofett', cursive;
+font-family: 'Orbitron', sans-serif;
+*/
+h1,h2,h3,h4,h5,h6,img,a,ul,li,*{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+ul,li{
+    list-style: none;
+    padding: 0;
+    outline: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+/*header part starts*/
+.header-part{
+   
+    ul{
+        li{
+            padding-bottom: 18px;
+            padding-top: 10px;
+            a{
+                font-family: 'Lobster', cursive; 
+                // font-family: 'Playball', cursive; 
+                font-size: 18px;
+                color: #fff;
+            }
+            .dropdown-menu a{
+                font-family: 'Orbitron', sans-serif;
+                font-size: 14px;
+                color: #fff;
+                font-weight: bold;
+            }
+            a:hover{
+                color: rgb(101, 138, 240);
+                transition: all linear .4s;
+            }
+            .dropdown:hover .dropdown-menu{
+                display: block;
+            }
+        }
+
+       
+    }
+    .bell,.account a{
+        color: #ddd;
+        font-size: 20px;
+    }
+    .bell:hover,.account a:hover{
+        color: rgb(21, 207, 64);
+    }
+    .account-menu a{
+        font-size: 15px;
+    }
+}
+/*header part ends*/
+
+
+/*product part starts*/
+.product-part{
+    h3,h5{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    img{
+        height: 600px;
+        width: 500px;
+    }
+    .rent-buy{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .fa-arrow-down{
+        font-size: 17px;
+        color: rgb(44, 10, 168);
+    }
+}
+/*product part ends*/
+
+
+
+/*footer part starts*/
+.footer-part{
+    background: #333;
+    .items{
+        padding-top: 30px;
+        padding-bottom: 20px;
+        img{
+            height: 130px;
+            border-radius: 40px;
+        }
+        .info{
+            padding-top: 20px;
+            h6{
+                padding-top: 8px;
+                color: #999;
+                display: inline-block;
+            }
+            h6:hover{
+                color: #26e265;
+                cursor: pointer;
+            }
+            .icons{
+                padding-top: 10px;
+                i{
+                    font-size: 40px;
+                    background: #000;
+                    border-radius: 70%;
+                    padding: 6px;
+                }
+                i:hover{
+                    cursor: pointer;
+                    color: #26e265;
+                    transition: all linear .4s;
+                }
+            }
+        }
+
+    }
+}
+/*footer part ends*/
